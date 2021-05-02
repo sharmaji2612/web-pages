@@ -1,0 +1,100 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.container {
+    /* background: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.5)), url('https://source.unsplash.com/user/erondu/1600x900'); */
+    background: url('2.jpg') no-repeat center center/cover;
+    height: 189px;
+}
+
+.box {
+    display: inline-block;
+}
+
+.box p {
+    margin: 50px 129px;
+    display: inline-block;
+    position: absolute;
+    font-size: 15px;
+    color: red;
+    ;
+}
+
+.box img {
+    height: 132px;
+    position: absolute;
+    width: 99px;
+    margin: -83px 123px;
+}
+
+.box1 {
+    color: azure;
+    display: inline-block;
+    padding: 54px;
+    margin: 2px;
+    margin-left: 179px;
+    font-size: 22px;
+    font-family: 'Zen Dots', cursive;
+}
+
+.box2 {
+    font-family: 'Zen Dots', cursive;
+    color: red;
+    top: 10px;
+    position: absolute;
+    right: 4px;
+    margin-top: 143px;
+    padding-right: 238px;
+}
+
+.click {
+    cursor: pointer;
+    position: relative;
+    padding: 5px 28px;
+    margin: -16px 1094px;
+    font-family: 'Zen Dots', cursive;
+    border: 2px solid black;
+    border-radius: 10px;
+    background: yellowgreen;
+    display: flex;
+}
+
+.click:hover {
+    color: yellow;
+    background-color: blue;
+}
+
+.bar {
+    display: left;
+    background: black;
+    margin-left: 12px;
+    margin-right: 12px;
+    border-radius: 27px;
+    margin-top: 5px;
+}
+
+.bar ul {
+    display: flex;
+    list-style: none;
+}
+
+.bar li {
+    list-style: none;
+    padding: 11px 9px;
+    margin-left: 80px;
+}
+
+.bar li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    margin: 15px 7px;
+}
+
+.bar li a:hover {
+    color: yellow;
+    text-decoration: underline;
+}

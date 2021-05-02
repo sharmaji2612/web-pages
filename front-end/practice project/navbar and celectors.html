@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Zen+Dots&display=swap" rel="stylesheet">
+    <title>Document</title>
+    <style>
+        body {
+            margin: 0px;
+            padding: 0px;
+            color: white;
+            background-color: black;
+            font-family: 'Zen Dots', cursive;
+        }
+        
+        header::before {
+            background: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.5)), url('https://source.unsplash.com/user/erondu/1600x900');
+            content: "";
+            top: 0;
+            left: 0;
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            z-index: -1;
+        }
+        
+        .navigation {
+            display: flex;
+        }
+        
+        li {
+            display: block;
+            margin: auto;
+            list-style: none;
+            padding: 10px 30px;
+            margin-left: 33px;
+        }
+        
+        p {
+            text-align: center;
+        }
+        
+        .navbar {
+            display: block;
+        }
+        
+        section {
+            height: 500px;
+            display: flex;
+            flex-direction: column;
+            text-align: center;
+            justify-content: center;
+        }
+        
+        section h3 {
+            font-size: 2rem;
+            padding: 10px 12px;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+
+        <nav class="navbar">
+            <ul class="navigation">
+                <li>HOME</li>
+                <li>ABOUT</li>
+                <li>STATUS</li>
+                <li>CONTACT US</li>
+            </ul>
+        </nav>
+
+    </header>
+
+    <section>
+        <h3> WELCOME TO THIS GAUR'S INDUSTRY</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nemo eum accusamus itaque ipsum provident vero optio, non modi facilis ducimus nulla ut sequi.</p>
+
+
+    </section>
+</body>
+
+</html>

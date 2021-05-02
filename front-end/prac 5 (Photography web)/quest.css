@@ -1,0 +1,149 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.main {
+    height: 100vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.6)), url(p9.jpg);
+    background-position: center;
+    background-size: cover;
+    overflow-x: hidden;
+    position: relative;
+}
+
+.img1 {
+    display: flex;
+    padding: px, 120px;
+}
+
+.logo img {
+    margin-left: 114px;
+    margin-top: 20px;
+    width: 155px;
+}
+
+.link {
+    flex: 1;
+}
+
+.link ul {
+    padding-top: 25px;
+    margin-left: 50px;
+    /* display:inline; */
+}
+
+.link ul li {
+    list-style: none;
+    display: inline-block;
+    padding: 8px 35px;
+}
+
+.link ul a {
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.link ul li::after {
+    content: '';
+    width: 0;
+    height: 2px;
+    background: yellow;
+    display: block;
+    margin: auto;
+    transform: .5s;
+}
+
+.link ul li:hover::after {
+    width: 100%;
+}
+
+.btn:hover {
+    background-color: rgb(109, 106, 106);
+    color: rgb(247, 243, 29);
+}
+
+.btn {
+    flex-direction: row;
+    padding: 10px 20px;
+    display: flex;
+    margin-right: 10px;
+    border: 0;
+    background: yellow;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.link .btn {
+    float: right;
+}
+
+.content {
+    margin: 80px 130px;
+    color: white
+}
+
+.content h3 {
+    font-size: 44px;
+    margin-bottom: 30px;
+}
+
+.content h3 span {
+    color: yellow;
+}
+
+.side-bar {
+    height: 100%;
+    background: black;
+    top: 0;
+    left: 0;
+    position: absolute;
+}
+
+.search-icon {
+    height: 60%;
+    weight: 80px;
+}
+
+.search-icon .fa {
+    margin: 45px 23px;
+    display: block;
+    color: white;
+    font-size: 30px;
+    cursor: pointer;
+}
+
+.social-icon {
+    height: 35%;
+    width: 76px;
+    background: yellow;
+    text-align: center;
+    padding-top: 10%;
+    bottom: 0;
+    position: absolute;
+}
+
+.social-icon .fa {
+    margin: 15px 23px;
+    display: block;
+    padding: 8px;
+    border: 1px solid #000;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.notice {
+    display: flex;
+    width: 400px;
+    right: 0;
+    bottom: 0;
+    position: absolute;
+    background: yellow;
+    align-items: center;
+}
+
+
+}

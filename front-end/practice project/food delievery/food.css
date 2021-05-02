@@ -1,0 +1,162 @@
+        * {
+            margin: 0px;
+            padding: 0px;
+        }
+        
+        #navbar::before {
+            content: "";
+            position: absolute;
+            background-color: black;
+            top: 0;
+            left: 0;
+            height: 100%;
+            width: 100%;
+            z-index: -1;
+            opacity: 0.4;
+        }
+        
+        #navbar {
+            display: flex;
+            align-items: center;
+            position: relative;
+            top: 0px;
+        }
+        
+        .logo {
+            margin: 12px 27px;
+            ;
+        }
+        
+        .logo img {
+            height: 80px;
+            width: 95px;
+            /* filter: invert(100%); */
+        }
+        /* NAVIGATION CENTER */
+        
+        #navbar ul {
+            display: flex;
+            font-family: 'Balsamiq Sans', cursive;
+        }
+        
+        #navbar ul li {
+            list-style: none;
+            font-size: 1.2rem;
+        }
+        
+        #navbar ul li a {
+            color: white;
+            font-weight: bold;
+            border-radius: 20px;
+            display: block;
+            padding: 5px;
+            text-decoration: none;
+            margin: 6px 26px;
+        }
+        
+        #navbar ul li a:hover {
+            color: black;
+            background: white;
+        }
+        /* CONTAINER SECTION */
+        
+        .container {
+            display: flex;
+            flex-direction: column;
+            height: 340px;
+            padding: 3px;
+            justify-content: center;
+            align-items: center;
+        }
+        
+        .container::before {
+            content: '';
+            background: url('3.jpg') no-repeat center center/cover;
+            position: absolute;
+            top: 0;
+            left: 0;
+            z-index: -1;
+            height: 65%;
+            width: 100%;
+            opacity: 2;
+        }
+        
+        .container h1 {
+            color: white;
+            text-align: center;
+            font-size: 3rem;
+            font-family: 'Zen Dots', cursive;
+        }
+        
+        p {
+            color: white;
+            text-align: center;
+            font-size: 1.2rem;
+            font-family: 'Balsamiq Sans', cursive;
+        }
+        
+        .primary {
+            font-size: 2.8rem;
+            padding: 12px;
+        }
+        /* BUTTON DESIGNING */
+        
+        .btn {
+            padding: 7px 26px;
+            margin: 9px;
+            font-family: 'Zen Dots', cursive;
+            border: 2px solid black;
+            border-radius: 10px;
+            background: yellowgreen;
+            cursor: pointer;
+        }
+        
+        .btn:hover {
+            background: rgb(255, 255, 0);
+            color: rgb(255, 0, 0);
+        }
+        /*  SERVICE SECTION*/
+        
+        .primary-center {
+            font-family: 'Balsamiq Sans', cursive;
+            margin-top: 1px;
+            font-size: 3rem;
+            color: black;
+            display: block;
+            text-align: center;
+        }
+        
+        #services {
+            display: flex;
+            margin: 0px;
+        }
+        
+        #services .box {
+            font-family: 'Balsamiq Sans', cursive;
+            border: 2px solid red;
+            margin: 5px 8px;
+            background: rgb(211, 206, 206);
+            border-radius: 23px;
+        }
+        
+        #services .box img {
+            height: 120px;
+            width: 280px;
+            padding: 15px;
+            display: block;
+            margin: auto;
+            padding-top: 7px;
+        }
+        
+        .servic2 {
+            display: block;
+            font-size: 2rem;
+            text-align: center;
+        }
+        
+        .center {
+            font-family: 'Balsamiq Sans', cursive;
+            color: black;
+            font-size: 0.9rem;
+            padding: 5px;
+        }

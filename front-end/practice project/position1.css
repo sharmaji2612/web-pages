@@ -1,0 +1,18 @@
+    .container {
+        border: 2px solid red;
+        background: grey;
+        height: 5003px;
+    }
+    
+    .box {
+        border: 1px solid black;
+        height: 120px;
+        width: 105px;
+        background: red;
+        display: inline-block;
+    }
+    
+    #box3 {
+        position: absolute;
+        top: 55px;
+    }

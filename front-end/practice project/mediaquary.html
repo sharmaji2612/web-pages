@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Docu</title>
+
+    <style>
+        .box {
+            text-align: center;
+            border: 1px solid red;
+            padding: 15px;
+            height: 65px;
+            margin: 5px;
+            display: none;
+        }
+        
+        @media only screen and (min-width:200px) and (max-width:500px) {
+            #box1 {
+                display: block;
+                background-color: pink;
+            }
+        }
+        
+        @media only screen and (min-width:500px) and (max-width:600px) {
+            #box2 {
+                display: block;
+                color: pink;
+            }
+        }
+        
+        @media only screen and (min-width:600px) and (max-width:700px) {
+            #box3 {
+                display: block;
+                color: pink;
+            }
+        }
+        
+        @media only screen and (min-width:700px) {
+            #box4 {
+                display: block;
+                color: pink;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="box" id="box1">HEY! Sachin HERE</div>
+    <div class="box" id="box2">i am single</div>
+    <div class="box" id="box3">but happy</div>
+    <div class="box" id="box4"> i am so shy</div>
+</body>
+
+</html>

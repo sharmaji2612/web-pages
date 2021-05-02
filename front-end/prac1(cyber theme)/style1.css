@@ -1,0 +1,46 @@
+.heading{
+	background-color: grey;
+	color:grey;
+	font-size: 40px;
+	word-spacing: 1.5cm;
+	
+
+}
+.main{
+	font-size: 20px;
+        padding-left:20px;
+        color: white;
+        text-decoration:overline;
+        text-decoration:underline;
+}
+.type{
+    text-align: right;
+	background-color:black;
+
+}
+.left{
+	 font-size: 20px;
+        padding-left: 20px;
+        color: white;
+         border:6px Solid rgb(23, 45, 23);
+}
+.container{
+	display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.img{
+	
+	 border:17px Solid white;
+}
+.image{
+	flex-basis: 10%;
+}
+.colour{
+	background-color: black ;
+}
+.contains{
+	display: flex;
+    align-items: left;
+    justify-content: left;
+}

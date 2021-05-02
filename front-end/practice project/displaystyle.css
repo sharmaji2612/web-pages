@@ -1,0 +1,59 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+img {
+    width: 5%;
+    margin: auto;
+    display: block;
+}
+
+.source {
+    background: rgb(173, 233, 228);
+    width: 90%;
+    margin: auto;
+    border: 3px solid black;
+    margin-top: 12px;
+}
+
+h2 {
+    margin: auto;
+    text-align: center;
+}
+
+.container {
+    width: 90%;
+    margin: auto;
+}
+
+.heading {
+    font-size: 25px;
+    display: block;
+    text-align: center;
+    padding: 10px 5px;
+}
+
+h4 {
+    margin: auto;
+}
+
+.box {
+    box-sizing: border-box;
+    padding: 1px 10px;
+    border: 4px solid black;
+    margin-top: 12px;
+    width: 33%;
+    display: inline-block;
+    background: lightgreen;
+}
+
+.box p {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+
+}
+
+}
